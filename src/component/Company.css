@@ -1,0 +1,69 @@
+/* General Styles */
+.elementor-video {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .elementor-column {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .elementor-widget-container {
+        padding: 0 15px;
+    }
+    .main-content{
+        display: block !important;
+    }
+    .first-image{
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .elementor-widget-container {
+        padding: 0 10px;
+    }
+}
+
+/* Video Container Styles */
+.e-hosted-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.e-hosted-video .elementor-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Video Controls Styling */
+video::-webkit-media-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px; /* Adjust height if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* Add custom styling for the video controls if necessary */
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-fullscreen-button {
+    color: #fff;
+}

@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+
+
+
+/* App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-area {
+  background-color: #f8f9fa;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.site-header {
+  padding: 10px 0;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.main-menu ul li {
+  padding: 0 20px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-area {
+  background-color: #343a40;
   color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-widget {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-widget h2.widget-title {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-widget ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-widget ul li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #23272b;
+  color: #aaa;
+  padding: 10px 0;
+}
+
+.slider-area {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
 }

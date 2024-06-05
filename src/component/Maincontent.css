@@ -1,0 +1,146 @@
+/* MainContent.css */
+
+.site-main {
+    font-family: Arial, sans-serif;
+  }
+  
+  .entry-content {
+    padding: 20px;
+  }
+  
+  .slider-area {
+    position: relative;
+  }
+  
+  .slider-active {
+    position: relative;
+  }
+  
+  .single-slider-2 {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .slider-content-2 {
+    color: #fff;
+    text-align: right;
+  }
+  
+  .slider-content-2 h1 {
+    font-size: 2.5em;
+    animation: fadeInUp 1s both;
+    top: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .elementor-section {
+    padding: 50px 0;
+  }
+  
+  .elementor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .elementor-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .elementor-column {
+    flex: 1 1 30%;
+    margin: 15px 0;
+  }
+  
+  .elementor-column-wrap {
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  .support-wrap {
+    text-align: center;
+  }
+  
+  .support-icon {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .support-content h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .support-content p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+.variety-section{
+  display: flex;
+}
+.backgrount-card-2{
+  background-color: #1C9CD9;
+}
+.backgrount-card-3{
+  background-color: #086898;
+}
+
+.variety-card{
+  display: flex;
+  padding: 10px;
+}
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .single-slider-2 {
+      height: 300px;
+    }
+    .variety-card{
+      display: block;
+      padding: 10px;
+    }
+  
+    .slider-content-2 h1 {
+      font-size: 1.8em;
+      position: absolute;
+      top: 0;
+  
+    }
+  
+    .elementor-row {
+      flex-direction: column;
+    }
+    .variety-section{
+      display: block;
+    }
+  
+    .elementor-column {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+      opacity: 0;
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
