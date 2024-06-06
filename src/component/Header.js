@@ -61,7 +61,9 @@ function Header() {
                   <img width="250" height="152" src={logoimage} className="custom-logo wp-post-image" alt="Lotus Wiindoors" />
                 </a>
                 <h1 style={{textAlign: 'center',
-    fontSize: '40px'}}>Sat kabir uPVC window & <br />domal section</h1>
+    fontSize: '40px'}}><span style={{fontSize:'100px'}}> SAT KABIR </span> <br />uPVC Window & Doors</h1>
+
+              <img src="" alt="" />
               </div>
               <div className="search">
                 <input placeholder="Search..." type="text" />

@@ -7,6 +7,8 @@ import Gallery from './component/other/Gallery';
 import ProductPage from './component/other/ProductPage';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';  // Assuming you've created this component as well
+import Login from './component/dashboard/Login';
+import Dashboard from './component/dashboard/DashBoard';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           <Route path="/project-gallery" element={<Gallery />} />
 
           <Route path="/product-page" element={<ProductPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          
         </Routes>
         {/* <Footer /> */}
       </div>
