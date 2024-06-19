@@ -29,6 +29,9 @@
   max-width: 100%;
   height: auto;
 }
+.mainlogo img{
+  width: 250px;
+}
 
 .main-menu {
   display: flex;
@@ -49,6 +52,7 @@
 
 .main-menu nav ul li {
   position: relative;
+  cursor: pointer;
 }
 
 .main-menu nav ul li a {
@@ -60,8 +64,8 @@
   display: block;
 }
 
-.main-menu nav ul li a:hover,
-.main-menu nav ul li.current-menu-item a {
+.main-menu nav ul li a:hover
+ a {
   color: #007bff;
 }
 
@@ -208,6 +212,14 @@
 @media (max-width: 576px) {
   .site-branding {
     justify-content: center;
+
+  }
+}
+
+@media (max-width: 531px) {
+  nav {
+    position: relative;
+    top: 54rem !important;
 
   }
 }

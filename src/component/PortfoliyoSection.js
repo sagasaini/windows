@@ -30,74 +30,74 @@ const PortfolioSection = () => {
                 <PortfolioItem
                       category="cat-28"
                       imgSrc={image2}
-                      // link="https://image2.in/portfolio-item/erigo-openable-windows-and-doors-410c/"
-                      title="Erigo Openable Windows and Doors (410C)"
-                      excerpt="ENEKU 53 series are ideal for windows and French windows with or without roller shutters, external"
+                      link={image2}
+                      title="uPVC Openable Windows and Doors "
+                      excerpt="uPVC Openable Windows and Doors are ideal for windows with or without open shutters, external"
                       position={{ left: '389.99px', top: '0px' }}
                     />
                     <PortfolioItem
                       category="cat-28"
                       imgSrc={image3}
-                      // link="https://signaturewindows.in/portfolio-item/eternia-openable-windows-and-doors-etp-cs/"
-                      title="Eternia Openable Windows and Doors (ETP-CS)"
-                      excerpt="ENEKU 53 series are ideal for windows and French windows with or without roller shutters, external"
+                      link={image3}
+                      title="glass Railing"
+                      excerpt="Our elegant glass railing systems offer a perfect blend of safety and modern aesthetics, providing unobstructed views while enhancing the architectural beauty of any space."
                       position={{ left: '779.98px', top: '0px' }}
                     />
                     <PortfolioItem
                       category="cat-28"
                       imgSrc={image4}
-                      link="https://signaturewindows.in/portfolio-item/eternia-premium-sliding-window/"
-                      title="Eternia Premium Sliding Window"
-                      excerpt="ENEKU 53 series are ideal for windows and French windows with or without roller shutters, external"
+                      link={image4}
+                      title="uPVC Sliding Window"
+                      excerpt="uPVC Openable Windows and Doors material , external and internal both sides"
                       position={{ left: '0px', top: '524.885px' }}
                     />
                     <PortfolioItem
                       category="cat-28"
                       imgSrc={image5}
-                      // link="https://signaturewindows.in/portfolio-item/erigo-sliding-windows-ete-sd/"
-                      title="Erigo Sliding Windows (ETE SD)"
-                      excerpt="ENEKU 53 series are ideal for windows and French windows with or without roller shutters, external"
-                      position={{ left: '389.99px', top: '524.885px' }}
+                      link={image5}
+                      title="uPVC Openable Windows and Doors "
+                      excerpt="uPVC Openable Windows and Doors are ideal for windows with or without open shutters, external"
+                      position={{ left: '389.99px', top: '0px' }}
                     />
                     <PortfolioItem
-                      category="cat-32"
+                      category="cat-28"
                       imgSrc={image6}
-                      link="https://signaturewindows.in/portfolio-item/soffit-of-vox/"
-                      title="Soffit of Vox"
-                      excerpt="The panels can be fitted with numerous lighting points. Properly selected lighting improves the"
-                      position={{ left: '779.98px', top: '524.885px' }}
+                      link={image6}
+                      title="slim section"
+                      excerpt="Our slim section windows and doors feature a sleek, minimalist design that maximizes glass area and natural light"
+                      position={{ left: '779.98px', top: '0px' }}
                     />
                     <PortfolioItem
                       category="cat-28"
                       imgSrc={image7}
-                      link="https://signaturewindows.in/portfolio-item/eneku-70-slide/"
-                      title="ENEKU 70 Slide"
-                      excerpt="The ENEKU 70 Slide TT thermal break and non-thermal break sliding doors and windows solve the"
-                      position={{ left: '0px', top: '1013.77px' }}
+                      link={image7}
+                      title="Profile Mirror"
+                      excerpt="Our profile mirrors are designed to offer a seamless blend of functionality and style, featuring sleek, modern frames "
+                      position={{ left: '0px', top: '524.885px' }}
                     />
                     <PortfolioItem
                       category="cat-28"
                       imgSrc={image8}
-                      link="https://signaturewindows.in/portfolio-item/eneku-53-series/"
-                      title="ENEKU 53 series"
-                      excerpt="ENEKU 53 series are ideal for windows and French windows with or without roller shutters, external"
-                      position={{ left: '389.99px', top: '1013.77px' }}
+                      link={image8}
+                      title="Led Glass "
+                      excerpt="Our innovative LED glass integrates advanced lighting technology within glass panels, creating stunning visual effects"
+                      position={{ left: '389.99px', top: '0px' }}
                     />
                     <PortfolioItem
-                      category="cat-31"
+                      category="cat-28"
                       imgSrc={image9}
-                      link="https://signaturewindows.in/portfolio-item/upvc-aluminium-gi-louvers/"
-                      title="Upvc, Aluminium & GI Louvers"
-                      excerpt="A louver is ventilation product that allows air to pass through it while keeping out unwanted"
-                      position={{ left: '779.98px', top: '1013.77px' }}
+                      link={image9}
+                      title="uPVC Openable Windows "
+                      excerpt="Our uPVC openable windows combine durability and energy efficiency with easy maintenance, providing a versatile and stylish solution"
+                      position={{ left: '779.98px', top: '0px' }}
                     />
-                     <PortfolioItem
-                      category="cat-31"
+                    <PortfolioItem
+                      category="cat-28"
                       imgSrc={image10}
-                      link="https://signaturewindows.in/portfolio-item/upvc-aluminium-gi-louvers/"
-                      title="Upvc, Aluminium & GI Louvers"
-                      excerpt="A louver is ventilation product that allows air to pass through it while keeping out unwanted"
-                      position={{ left: '779.98px', top: '1013.77px' }}
+                      link={image10}
+                      title="uPVC Sliding Window"
+                      excerpt="uPVC Openable Windows and Doors material , external and internal both sides"
+                      position={{ left: '0px', top: '524.885px' }}
                     />
                   {/* Other PortfolioItems */}
                 </div>

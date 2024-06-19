@@ -22,7 +22,7 @@ const Company = () => {
 								<div className="elementor-element elementor-element-3eebc919 gyan-title-st-line-after gyan-title-desc-left elementor-widget elementor-widget-gyan_title" data-id="3eebc919" data-element_type="widget" data-widget_type="gyan_title.default">
 				<div className="elementor-widget-container">
 					<div className="gyan-title">
-			<div className="gyan-title-subtitle"><span>About Our Company</span></div><h2 className="gyan-title-heading">Make Your Dream Come  True</h2><div className="gyan-title-desc">Sat Kabir uPVC Windows &amp;& DomalSection began its business In April 2011 we started making of UPVC windows on the name of  uPVC Windows &amp;& DomalSection.</div>		</div>
+			<div className="gyan-title-subtitle"><span>About Our Company</span></div><h2 className="gyan-title-heading">Make Your Dream Come  True</h2><div className="gyan-title-desc">Sat Kabir uPVC Windows &amp;& Doors began its business In April 2022 we started making of UPVC windows on the name of  uPVC Windows &amp;& Doors.</div>		</div>
 				</div>
 				</div>
 				<div className="elementor-element elementor-element-47178d00 elementor-widget elementor-widget-heading" data-id="47178d00" data-element_type="widget" data-widget_type="heading.default">
@@ -31,12 +31,12 @@ const Company = () => {
 				</div>
 				<div className="elementor-element elementor-element-3c4852af elementor-widget elementor-widget-text-editor" data-id="3c4852af" data-element_type="widget" data-widget_type="text-editor.default">
 				<div className="elementor-widget-container">
-								<p>The unmatched experience and superior grade of material used for extensive product range are the factor accountable for our success. We have set up our sales network all over Haryana with Head office in Sonipat.</p>						</div>
+								<p>When selecting wooden finishes and colors for doors and windows, you have a wide variety of options that can complement different design aesthetics and personal preferences. Here's an overview of the types of wooden finishes and color options available.</p>						</div>
 				</div>
 				<div className="elementor-element elementor-element-63e58947 elementor-widget elementor-widget-button" data-id="63e58947" data-element_type="widget" data-widget_type="button.default">
 				<div className="elementor-widget-container">
 					<div className="elementor-button-wrapper">
-			<a href="https://signaturewindows.in/about-us/" className="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="/about-us" className="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span className="elementor-button-content-wrapper">
 						<span className="elementor-button-text">More About Us</span>
 		</span>

@@ -19,7 +19,7 @@ const Gallery = () => {
     <Header  />
     </div>
       <div className="gallery-heading">
-        <h2>UPVC Windows</h2>
+        <h2>UPVC Windows and Doors</h2>
       </div>
       <div className="gallery-images">
       <div className="gallery-item">
@@ -106,7 +106,7 @@ const Gallery = () => {
         
       </div>
       <div className="gallery-heading">
-        <h2>GI Doors & Windows</h2>
+        <h2>Glass Railing</h2>
       </div>
       <div className="gallery-images">
       <div className="gallery-item">
@@ -149,7 +149,7 @@ const Gallery = () => {
         
       </div>
       <div className="gallery-heading">
-        <h2>Louvers Windows</h2>
+        <h2>Steel Railing</h2>
       </div>
       <div className="gallery-images">
       <div className="gallery-item">
@@ -192,7 +192,7 @@ const Gallery = () => {
         
       </div>
       <div className="gallery-heading">
-        <h2>Soffit VOX</h2>
+        <h2>Slim Section</h2>
       </div>
       <div className="gallery-images">
       <div className="gallery-item">

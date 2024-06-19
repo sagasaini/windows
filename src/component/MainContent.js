@@ -56,7 +56,7 @@ function MainContent() {
 				
 				
 					<div class="gyan-infobox-content gyan-ease-transition">
-						Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod					</div>
+          Non-operable windows designed to provide an unobstructed view				</div>
 
 				
 				
@@ -98,7 +98,7 @@ function MainContent() {
 				
 				
 					<div class="gyan-infobox-content gyan-ease-transition">
-						Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod					</div>
+          Made primarily of glass panels, can be framed or frameless.			</div>
 
 				
 				
@@ -134,13 +134,14 @@ function MainContent() {
 
 				
 					<h4 class="gyan-infobox-title gyan-ease-transition">
-												Wooden Finish &amp; Various Color OPtions											</h4>
+												Wooden Finish &amp; Various Color Options											</h4>
 
 				
 				
 				
 					<div class="gyan-infobox-content gyan-ease-transition">
-						Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod					</div>
+          Highlights the wood's natural grain and color
+          </div>
 
 				
 				

@@ -1,65 +1,74 @@
 import React, { useState } from 'react';
-import { Box, Drawer, List, ListItem, ListItemText, Typography, Container } from '@mui/material';
-import AddImage from './AddImage';
-import AddVideo from './AddVideo';
-import DeleteImage from './DeleteImage';
-import DeleteVideo from './DeleteVideo';
-import Gallery from './Gallery';
-
-const drawerWidth = 240;
+import Sidebar from './Sidebar';
+import ItemTable from './ItemTable';
+import AddItemForm from './AddItemForm';
+import EditItemModal from './EditItemModel';
+import itemData from './ItemData'; 
+import './style.css'// Sample data (can be fetched from API)
 
 const Dashboard = () => {
-  const [selectedOption, setSelectedOption] = useState('Gallery');
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [items, setItems] = useState([]);
+  const [showAddForm, setShowAddForm] = useState(false);
+  const [editItem, setEditItem] = useState(null);
 
-  const renderContent = () => {
-    switch (selectedOption) {
-      case 'Add Image':
-        return <AddImage />;
-      case 'Add Video':
-        return <AddVideo />;
-      case 'Delete Image':
-        return <DeleteImage />;
-      case 'Delete Video':
-        return <DeleteVideo />;
-      case 'Gallery':
-        return <Gallery />;
-      default:
-        return <Gallery />;
-    }
+  const categories = Object.keys(itemData);
+
+  const handleItemClick = (category) => {
+    setSelectedCategory(category);
+    setItems(itemData[category]);
+  };
+
+  const handleAddItem = (newItem) => {
+    const updatedItems = [...items, newItem];
+    setItems(updatedItems);
+    itemData[selectedCategory] = updatedItems; // Update the itemData object
+    setShowAddForm(false);
+  };
+
+  const handleEditItem = (updatedItem) => {
+    const updatedItems = items.map(item => (item.name === updatedItem.name ? updatedItem : item));
+    setItems(updatedItems);
+    itemData[selectedCategory] = updatedItems; // Update the itemData object
+    setEditItem(null);
+  };
+
+  const handleDeleteItem = (itemToDelete) => {
+    const updatedItems = items.filter(item => item.name !== itemToDelete.name);
+    setItems(updatedItems);
+    itemData[selectedCategory] = updatedItems; // Update the itemData object
+  };
+
+  const openEditForm = (item) => {
+    setEditItem(item);
+  };
+
+  const closeEditForm = () => {
+    setEditItem(null);
   };
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <Drawer
-        sx={{
-          width: drawerWidth,
-          flexShrink: 0,
-          '& .MuiDrawer-paper': {
-            width: drawerWidth,
-            boxSizing: 'border-box',
-          },
-        }}
-        variant="permanent"
-        anchor="left"
-      >
-        <List>
-          {['Add Image', 'Add Video', 'Delete Image', 'Delete Video', 'Gallery'].map((text) => (
-            <ListItem button key={text} onClick={() => setSelectedOption(text)}>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3, marginLeft: `${drawerWidth}px` }}
-      >
-        <Typography variant="h4" gutterBottom>
-          {selectedOption}
-        </Typography>
-        {renderContent()}
-      </Box>
-    </Box>
+    <div className="app">
+      <Sidebar categories={categories} onItemClick={handleItemClick} />
+      <div className="main-content">
+        {selectedCategory && (
+          <>
+            <button onClick={() => setShowAddForm(true)}>Add New Item</button>
+            {showAddForm && (
+              <AddItemForm onAdd={handleAddItem} />
+            )}
+            <ItemTable
+              items={items}
+              editItem={editItem}
+              onEdit={openEditForm}
+              onSave={handleEditItem}
+              onDelete={handleDeleteItem}
+              onCloseEdit={closeEditForm}
+            />
+          </>
+        )}
+      </div>
+    </div>
   );
 };
 

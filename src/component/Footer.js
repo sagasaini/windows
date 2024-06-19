@@ -12,19 +12,19 @@ function Footer() {
               <ul className="footer-menu">
                 <li>
                   <a href="https://www.facebook.com/LotusWiindoors/" target="_blank" rel="noopener noreferrer">
-                    Facebook Page: LotusWiindoors
+                    Facebook Page: Balraj saini
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/lotuswiindoors" target="_blank" rel="noopener noreferrer">
-                    Twitter Handle: @lotuswiindoors
+                    Instagram Handle: balraj.saini.5095
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.linkedin.com/company/lotuswiindoors">
                     LinkedIn Page
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

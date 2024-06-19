@@ -7,7 +7,7 @@ const InfoSection = () => {
       <div className="info-container">
         <InfoBox
           imgSrc="https://signaturewindows.in/wp-content/uploads/2021/05/happy.png"
-          number="6149"
+          number="600+"
           text="Happy Customers"
         />
         <InfoBox
@@ -17,12 +17,12 @@ const InfoSection = () => {
         />
         <InfoBox
           imgSrc="https://signaturewindows.in/wp-content/uploads/2021/05/Served.png"
-          number="3507"
+          number="500+"
           text="Industries Served"
         />
         <InfoBox
           imgSrc="https://signaturewindows.in/wp-content/uploads/2021/05/done.png"
-          number="2100"
+          number="600+"
           text="Completed Projects"
         />
       </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaSearch, FaBars,FaAngleDown } from 'react-icons/fa';
 import './Header.css';
 import logoimage from '../assets/images/logoimage.jpg';
+import logo from '../assets/images/logo.jpg';
 
 function MobileMenu({ isOpen, toggleMenu }) {
   const [isOpens, setIsOpens] = useState(false);
@@ -16,7 +17,7 @@ function MobileMenu({ isOpen, toggleMenu }) {
   return (
     <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
       <nav style={{position: 'relative',
-    top: '33rem',
+    top: '43rem',
     background: 'white'}}>
         <ul className="menu">
           <li className="menu-item"><a href="/">Home</a></li>
@@ -25,12 +26,12 @@ function MobileMenu({ isOpen, toggleMenu }) {
             Products <FaAngleDown />
             <ul className={`sub-menu ${isOpens ? 'show' : ''}`}>
             <li><a href="/product-page">uPVC </a></li>
-              <li><a href="/product-page">Aliminium</a></li>
+              <li><a href="/product-page">Aluminium</a></li>
               <li><a href="/product-page">Glass</a></li>
             </ul>
           </li>
           <li className="menu-item"><a href="/project-gallery">Project Gallery</a></li>
-          <li className="menu-item"><a href="/solutions">Solutions</a></li>
+          {/* <li className="menu-item"><a href="/solutions">Solutions</a></li> */}
           <li className="menu-item"><a href="/contact-us">Contact Us</a></li>
         </ul>
       </nav>
@@ -62,8 +63,9 @@ function Header() {
                 </a>
                 <h1 style={{textAlign: 'center',
     fontSize: '40px'}}><span style={{fontSize:'100px'}}> SAT KABIR </span> <br />uPVC Window & Doors</h1>
-
-              <img src="" alt="" />
+               <div className="mainlogo">
+              <img src={logo} alt="" />
+              </div>
               </div>
               <div className="search">
                 <input placeholder="Search..." type="text" />
@@ -80,13 +82,13 @@ function Header() {
             Products <FaAngleDown />
             <ul className={`sub-menu ${isOpen ? 'show' : ''}`}>
               <li><a href="/product-page">uPVC </a></li>
-              <li><a href="/product-page">Aliminium</a></li>
+              <li><a href="/product-page">Aluminium</a></li>
               <li><a href="/product-page">Glass</a></li>
             </ul>
           </li>
                     <li className="menu-item"><a href="/project-gallery">Project Gallery</a></li>
-                    <li className="menu-item"><a href="/solutions">Solutions</a></li>
-                    <li className="menu-item"><a href="/contact">Contact Us</a></li>
+                    {/* <li className="menu-item"><a href="/solutions">Solutions</a></li> */}
+                    <li className="menu-item"><a href="/contact-us">Contact Us</a></li>
                   </ul>
                 </nav>
               </div>

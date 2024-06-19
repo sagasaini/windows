@@ -87,9 +87,9 @@
     justify-content: center;
 }
 
-.portfolio-item-inner:hover .portfolio-overlay {
+/* .portfolio-item-inner:hover .portfolio-overlay {
     display: flex;
-}
+} */
 
 .portfolio-link-icon {
     color: #fff;

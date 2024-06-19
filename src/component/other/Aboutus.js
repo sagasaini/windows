@@ -5,11 +5,13 @@ import strength from '../../assets/images/strength.jpg'
 import { FaCheck } from "react-icons/fa6";
 import InfoSection2 from './InfoSecton2';
 import Footer from '../Footer';
+import image2 from '../../assets/images/headingimage.png'
+import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
   return (
-
-    <div className="section">
+     <>
+         <div className="section">
     <Header />
       <div className="background-overlay"></div>
       <div className="about-container">
@@ -24,17 +26,17 @@ const Aboutus = () => {
                         <div className="subtitle"><span>About Our Company</span></div>
                         <h2 className="heading">Make Your Dream Come True</h2>
                         <div className="description">
-                          Signature Windows &amp; Doors began its business operation as an aluminum window maker company in Jan 2008 on the name of Hi-Tech Enterprises. In April 2011 we started making UPVC windows under the name of Signature Windows & Doors. From conception till date we have shown tremendous growth and expansion via our distinct product approach. We are endowed with a team of competent professionals assuring to deliver the best of services for our clients. The unmatched experience and superior grade of material used for extensive product range are the factors accountable for our success. We have set up our sales network all over Maharashtra with Head office in Pune.
+                          SatKabir uPVC Windows &amp; Doors began its business operation as an aluminum window maker company in Jan 2015 on the name of SatKabir Aluminium & Glass. In April 2022 we started making UPVC windows under the name of SatKabir uPVC Windows & Doors. From conception till date we have shown tremendous growth and expansion via our distinct product approach. We are endowed with a team of competent professionals assuring to deliver the best of services for our clients. The unmatched experience and superior grade of material used for extensive product range are the factors accountable for our success. We have set up our sales network all over Haryana with Head office in Sonipat.
                         </div>
                       </div>
                     </div>
                     <div className="button-widget">
                       <div className="button-container">
-                        <a href="https://signaturewindows.in/contact-us/" className="button" role="button">
-                          <span className="button-content">
-                            <span className="button-text">Get Free Quote</span>
-                          </span>
-                        </a>
+                      <Link to="/contact-us" className="button" role="button">
+      <span className="button-content">
+        <span className="button-text">Get Free Quote</span>
+      </span>
+    </Link>
                       </div>
                     </div>
                   </div>
@@ -46,7 +48,7 @@ const Aboutus = () => {
                         <img
                           fetchpriority="high"
                           decoding="async"
-                          src="https://signaturewindows.in/wp-content/uploads/2021/05/about-welcome.jpg"
+                          src={image2}
                           alt="About Us"
                           className="responsive-image"
                         />
@@ -58,6 +60,7 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <InfoSection2 />
       <div className="company-strength-section">
@@ -141,8 +144,7 @@ const Aboutus = () => {
                       Wide distribution network
                     </h4>
                     <div className="info-box-content animation-ease-transition">
-                      Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod
-                      tempor incididunt
+                    Our comprehensive distribution network ensures that our high-quality windows and doors are accessible to customers across a broad geographic area
                     </div>
                   </div>
                 </div>
@@ -167,9 +169,9 @@ const Aboutus = () => {
                     <h4 className="info-box-title animation-ease-transition">
                       On time delivery
                     </h4>
+                    
                     <div className="info-box-content animation-ease-transition">
-                      Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod
-                      tempor incididunt
+                    Our commitment to on-time delivery ensures that your windows and doors arrive exactly when you need them, allowing your projects to stay on schedule and within budget.
                     </div>
                   </div>
                 </div>
@@ -180,7 +182,7 @@ const Aboutus = () => {
         <div className="column column-33">
           <div className="widget-wrap widget-populated">
             <section className="about-inner-section">
-              <div className="container">
+              <div className="containers">
                 <div className="column column-100">
                   <div className="widget-wrap widget-populated">
                     <div className="title-desc-center">
@@ -232,7 +234,7 @@ const Aboutus = () => {
             </section>
           </div>
         </div>
-        <div className="column column-33">
+        <div className="about-column  column-33">
           <div className="widget-wrap widget-populated">
             <div className="info-box-align-left info-box-position-top info-box-center-no hover-animation-none animation-box-fade">
               <div className="widget-container" style={{backgroundColor:'#5a8ee3'}}>
@@ -251,11 +253,11 @@ const Aboutus = () => {
                   </div>
                   <div className="info-box-content-holder">
                     <h4 className="info-box-title animation-ease-transition">
-                      Goodwill in the market
+                      Goodwill in the  market
                     </h4>
                     <div className="info-box-content animation-ease-transition">
-                      Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod
-                      tempor incididunt
+                    Our company has established a strong reputation and significant goodwill in the market through years of dedication to quality, innovation, and customer satisfaction. 
+
                     </div>
                   </div>
                 </div>
@@ -281,8 +283,7 @@ const Aboutus = () => {
                       Ethical business dealing
                     </h4>
                     <div className="info-box-content animation-ease-transition">
-                      Lorem ipsum dolor sit ame contur adipi cing elit sed do eimod
-                      tempor incididunt
+                    We pride ourselves on ethical business dealing, ensuring transparency, integrity, and fairness in all our interactions with customers, suppliers, and partners.
                     </div>
                   </div>
                 </div>
@@ -292,7 +293,9 @@ const Aboutus = () => {
         </div>
       </div>
     <Footer />
-    </div>
+    
+    </>
+
   );
 }
 
