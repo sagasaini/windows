@@ -67,10 +67,10 @@ function Header() {
               <img src={logo} alt="" />
               </div>
               </div>
-              <div className="search">
+              {/* <div className="search">
                 <input placeholder="Search..." type="text" />
                 <button type="submit">Go</button>
-              </div>
+              </div> */}
             </div>
             <div className="col-xl-8 col-lg-8 d-none d-lg-block">
               <div className="main-menu">

@@ -8,7 +8,7 @@ const Company = () => {
     <div>
       <div className="elementor-container main-content elementor-column-gap-no" style={{display: 'flex',
     justifyContent: 'space-around',
-    gap: '10px'}}>
+    gap: '10px', flexDirection:'row'}}>
 					<div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-af1435a" data-id="af1435a" data-element_type="column">
 			<div className="elementor-widget-wrap elementor-element-populated">
 								<div className="elementor-element elementor-element-7395b2bd elementor-widget elementor-widget-image" data-id="7395b2bd" data-element_type="widget" data-widget_type="image.default">
