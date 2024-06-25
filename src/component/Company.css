@@ -4,7 +4,25 @@
     height: auto;
     border: none;
 }
+.gyan-title-subtitle{
+    font-size: 30px;
+    font-weight: 700;
+}
 
+.gyan-title-heading{
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.gyan-title-desc{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.elementor-button-text{
+    font-size: 20px;
+    line-height: 5.5;
+}
 /* Responsive Styles */
 @media (max-width: 992px) {
     .elementor-column {

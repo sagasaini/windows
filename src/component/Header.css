@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  background: gray;
+  background: #d7d3d3;
   position: relative;
   top: 50px;
 }
@@ -53,11 +53,13 @@
 .main-menu nav ul li {
   position: relative;
   cursor: pointer;
+  color: black;
+    font-weight: 700;
 }
 
 .main-menu nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: black;
   font-weight: 600;
   font-size: 16px;
   padding: 5px 10px;
@@ -136,11 +138,11 @@
 .mobile-menu {
   display: none;
   position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 1000;
+    top: 26px;
+    right: 0;
+    width: 50%;
+    background: white;
+    z-index: 1000;
 }
 
 .mobile-menu.open {
@@ -196,6 +198,7 @@
     width: 100%;
     display: flex;
         flex-direction: column;
+        align-items: center;
   }
 
   .header-search {
@@ -206,6 +209,9 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
 }
 
@@ -219,7 +225,7 @@
 @media (max-width: 531px) {
   nav {
     position: relative;
-    top: 54rem !important;
+    /* top: 54rem !important; */
 
   }
 }

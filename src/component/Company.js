@@ -27,11 +27,11 @@ const Company = () => {
 				</div>
 				<div className="elementor-element elementor-element-47178d00 elementor-widget elementor-widget-heading" data-id="47178d00" data-element_type="widget" data-widget_type="heading.default">
 				<div className="elementor-widget-container">
-			<h2 className="elementor-heading-title elementor-size-default">Why We Are The Best?</h2>		</div>
+			<h2 className=" gyan-title-heading elementor-heading-title elementor-size-default">Why We Are The Best?</h2>		</div>
 				</div>
 				<div className="elementor-element elementor-element-3c4852af elementor-widget elementor-widget-text-editor" data-id="3c4852af" data-element_type="widget" data-widget_type="text-editor.default">
-				<div className="elementor-widget-container">
-								<p>When selecting wooden finishes and colors for doors and windows, you have a wide variety of options that can complement different design aesthetics and personal preferences. Here's an overview of the types of wooden finishes and color options available.</p>						</div>
+				<div className=" elementor-widget-container">
+								<p className='gyan-title-desc'>When selecting wooden finishes and colors for doors and windows, you have a wide variety of options that can complement different design aesthetics and personal preferences. Here's an overview of the types of wooden finishes and color options available.</p>						</div>
 				</div>
 				<div className="elementor-element elementor-element-63e58947 elementor-widget elementor-widget-button" data-id="63e58947" data-element_type="widget" data-widget_type="button.default">
 				<div className="elementor-widget-container">

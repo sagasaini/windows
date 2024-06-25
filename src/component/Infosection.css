@@ -35,8 +35,9 @@
   }
   
   .info-box-text {
-    font-size: 16px;
-    color: #666;
+    font-size: 25px;
+    color: black;
+
   }
   
   /* Responsive styles */

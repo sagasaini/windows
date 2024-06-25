@@ -49,13 +49,13 @@ function MainContent() {
 			<div class="gyan-infobox-content-holder">
 
 				
-					<h4 class="gyan-infobox-title gyan-ease-transition">
+					<h4 class="gyan-infobox-title text-heading gyan-ease-transition">
 												Window Types											</h4>
 
 				
 				
 				
-					<div class="gyan-infobox-content gyan-ease-transition">
+					<div class="gyan-infobox-content text gyan-ease-transition">
           Non-operable windows designed to provide an unobstructed view				</div>
 
 				
@@ -91,13 +91,13 @@ function MainContent() {
 			<div class="gyan-infobox-content-holder">
 
 				
-					<h4 class="gyan-infobox-title gyan-ease-transition">
+					<h4 class="gyan-infobox-title  text-heading gyan-ease-transition">
 												Door Styles											</h4>
 
 				
 				
 				
-					<div class="gyan-infobox-content gyan-ease-transition">
+					<div class="gyan-infobox-content text gyan-ease-transition">
           Made primarily of glass panels, can be framed or frameless.			</div>
 
 				
@@ -133,13 +133,13 @@ function MainContent() {
 			<div class="gyan-infobox-content-holder">
 
 				
-					<h4 class="gyan-infobox-title gyan-ease-transition">
+					<h4 class="gyan-infobox-title text-heading  gyan-ease-transition">
 												Wooden Finish &amp; Various Color Options											</h4>
 
 				
 				
 				
-					<div class="gyan-infobox-content gyan-ease-transition">
+					<div class="gyan-infobox-content text gyan-ease-transition">
           Highlights the wood's natural grain and color
           </div>
 

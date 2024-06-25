@@ -24,7 +24,7 @@ const Aboutus = () => {
                     <div className="title-widget">
                       <div className="title-container">
                         <div className="subtitle"><span>About Our Company</span></div>
-                        <h2 className="heading">Make Your Dream Come True</h2>
+                        <h2 className="headings">Make Your Dream Come True</h2>
                         <div className="description">
                           SatKabir uPVC Windows &amp; Doors began its business operation as an aluminum window maker company in Jan 2015 on the name of SatKabir Aluminium & Glass. In April 2022 we started making UPVC windows under the name of SatKabir uPVC Windows & Doors. From conception till date we have shown tremendous growth and expansion via our distinct product approach. We are endowed with a team of competent professionals assuring to deliver the best of services for our clients. The unmatched experience and superior grade of material used for extensive product range are the factors accountable for our success. We have set up our sales network all over Haryana with Head office in Sonipat.
                         </div>

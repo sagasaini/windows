@@ -17,7 +17,7 @@ function MobileMenu({ isOpen, toggleMenu }) {
   return (
     <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
       <nav style={{position: 'relative',
-    top: '43rem',
+    
     background: 'white'}}>
         <ul className="menu">
           <li className="menu-item"><a href="/">Home</a></li>
@@ -60,9 +60,11 @@ function Header() {
               <div className="site-branding logo">
                 <a href="/" className="custom-logo-link" rel="home">
                   <img width="250" height="152" src={logoimage} className="custom-logo wp-post-image" alt="Lotus Wiindoors" />
+                 {/* {windowWidth <768 &&
+                 } */}
                 </a>
                 <h1 style={{textAlign: 'center',
-    fontSize: '40px'}}><span style={{fontSize:'100px'}}> SAT KABIR </span> <br />uPVC Window & Doors</h1>
+    fontSize: '40px'}}><span style={{fontSize:'95px'}}> SAT KABIR </span> <br />uPVC Window & Doors</h1>
                <div className="mainlogo">
               <img src={logo} alt="" />
               </div>
