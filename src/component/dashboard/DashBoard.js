@@ -46,6 +46,9 @@ const Dashboard = () => {
   const closeEditForm = () => {
     setEditItem(null);
   };
+  const toggleAddForm = () => {
+    setShowAddForm(prevState => !prevState);
+  };
 
   return (
     <div className="app">
@@ -55,7 +58,7 @@ const Dashboard = () => {
           <>
             <button onClick={() => setShowAddForm(true)}>Add New Item</button>
             {showAddForm && (
-              <AddItemForm onAdd={handleAddItem} />
+              <AddItemForm onAdd={handleAddItem} onClose={toggleAddForm} />
             )}
             <ItemTable
               items={items}
@@ -64,6 +67,7 @@ const Dashboard = () => {
               onSave={handleEditItem}
               onDelete={handleDeleteItem}
               onCloseEdit={closeEditForm}
+              
             />
           </>
         )}

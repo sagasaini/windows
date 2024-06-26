@@ -27,8 +27,12 @@ const EditItemModal = ({ item, onSave, onClose }) => {
   };
 
   return (
-    <div className="edit-item-form">
+    <div className="edit-item-modal">
+     <div style={{display: 'flex',
+    justifyContent: 'space-between'}} className="closebutton">
       <h2>Edit Item</h2>
+      <button className="close-button" onClick={onClose}>X</button>
+      </div>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

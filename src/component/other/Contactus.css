@@ -88,7 +88,7 @@
   }
   
   .form label .input:valid + span {
-    color: green;
+    color: black;
   }
   
   .input01 {
@@ -121,7 +121,7 @@
   }
   
   .form label .input01:valid + span {
-    color: green;
+    color: black;
   }
   
   .fancy {

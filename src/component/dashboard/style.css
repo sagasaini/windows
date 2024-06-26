@@ -13,7 +13,7 @@ body {
   
   .sidebar {
     width: 250px;
-    background-color: #333;
+    background-color: #1e71a7;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
@@ -79,6 +79,13 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+  }
+
+  .close-button{
+    padding: 10px !important;
+    color: black !important;
+    width: 30px;
+    background: white !important;
   }
   
   button:hover {
